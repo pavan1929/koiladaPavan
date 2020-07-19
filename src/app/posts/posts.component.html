@@ -1,0 +1,7 @@
+<div class="username" *ngIf = "userValue | async as title"><b>User:&nbsp;{{title.name}}</b></div>
+<div class="grid-container">
+  <div *ngFor="let post of postList; let i = index" class="grid-item">
+    <div><b>{{post.title}}</b></div>
+    <div>{{post.body}}</div>
+  </div>
+</div>

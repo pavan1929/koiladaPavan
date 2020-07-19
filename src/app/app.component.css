@@ -1,0 +1,8 @@
+.main{
+    margin:0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(0deg,#000000,#3a3a3a,#000000);
+    background-size: cover;
+}
